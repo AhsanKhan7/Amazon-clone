@@ -1,0 +1,19 @@
+.home {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.home__row {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;   
+}
+
+.home_image {
+    width: 100%;
+    height: 600px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) );
+    margin-bottom: -150px;
+    z-index: -1;
+}
